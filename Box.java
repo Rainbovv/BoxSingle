@@ -2,6 +2,7 @@ public class Box {
 
     private Object value;
 
+    private Box() {};
 
     public Object getValue() {
         return value;
